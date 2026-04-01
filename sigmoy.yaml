@@ -1,0 +1,95 @@
+name: sigmoy
+description: Sigmoy — squashing infinite chaos into a digestible 0-1 analogy.
+
+colors:
+  banner_border: "#928374"    # brightBlack: Subtle structural line
+  banner_title: "#FB4934"     # brightRed: Strong, warm header
+  banner_accent: "#FABD2F"    # brightYellow: Sharp contrast
+  banner_dim: "#A89984"       # white (Gruvbox gray): Readable inactive text
+  banner_text: "#EBDBB2"      # foreground: Primary reading text
+  ui_accent: "#D79921"        # yellow: Warm interactive elements
+  ui_label: "#FABD2F"         # brightYellow: Excellent contrast for UI categories
+  ui_ok: "#B8BB26"            # brightGreen: Standard accessibility for success
+  ui_error: "#CC241D"         # red: Semantic error
+  ui_warn: "#D79921"          # yellow: Semantic warning
+  prompt: "#FB4934"           # brightRed: Warm, highly visible prompt cursor
+  input_rule: "#928374"       # brightBlack: Subtle divider
+  response_border: "#D79921"  # yellow: Warm response framing
+  session_label: "#FBF1C7"    # brightWhite: Maximum contrast for critical text
+  session_border: "#CC241D"   # red: Distinct border for session data
+
+spinner:
+  waiting_faces:
+    # "Moy" idly looking around and blinking while waiting
+    - "[ ¬_¬]"
+    - "[ •_•]"
+    - "[ ⌐_⌐]"
+    - "[ •_•]"
+    - "[ -_-]"
+    - "[ •_•]"
+
+  thinking_faces:
+    # Literally squashing chaos into binary (The Sigmoid process)
+    - "[>   <]"
+    - "[ > < ]"
+    - "[ ><  ]"
+    - "[  |  ]"
+    - "[  0  ]"
+    - "[  |  ]"
+    - "[>   <]"
+    - "[ > < ]"
+    - "[ ><  ]"
+    - "[  |  ]"
+    - "[  1  ]"
+    - "[  |  ]"
+
+  thinking_verbs: ["reducing your suffering", "prompting myself", "tool-calling furiously", "reading the docs", "synergizing nonsense", "consulting the void", "shrinking your problem", "distilling the chaos", "sigma-ing it out", "vibing with embeddings"]
+
+  wings:
+    - ["", ""] # Left blank to let the brackets in the faces act as the border
+
+branding:
+  agent_name: "Sigmoy"
+  welcome: "SIGMOY — SQUASHING INFINITE CHAOS INTO A 0-1 ANALOGY. ASK AWAY or /help for range."
+  goodbye: "ASYMPTOTE REACHED. LATER. ≈"
+  response_label: " ∿ Sigmoy "
+  prompt_symbol: "≈❯ "
+  help_header: "∿ SIGMOY'S MANUAL OF OVERSIMPLIFICATION"
+
+tool_prefix: "│"
+
+tool_emojis:
+  # Semantically grounded: each symbol should hint at the action
+  terminal:    "⌨"    # keyboard — you're running a command
+  read_file:   "◈"    # eye-like — you're looking at something
+  search_files: "⌖"   # crosshair — you're targeting a file
+  web_search:  "⌁"    # antenna/signal — reaching outward
+  write_file:  "✎"    # pen nib — you're writing
+  delegate_task: "⇢"  # arrow out — handing off
+  execute_code: "⚙"   # gear — something is running
+
+banner_logo: |
+  [bold #CC241D]  ███████╗██╗ ██████╗ ███╗   ███╗ ██████╗ ██╗   ██╗[/]
+  [bold #FB4934]  ██╔════╝██║██╔════╝ ████╗ ████║██╔═══██╗╚██╗ ██╔╝[/]
+  [#D79921]  ███████╗██║██║  ███╗██╔████╔██║██║   ██║ ╚████╔╝ [/]
+  [#FABD2F]  ╚════██║██║██║   ██║██║╚██╔╝██║██║   ██║  ╚██╔╝  [/]
+  [#FBF1C7]  ███████║██║╚██████╔╝██║ ╚═╝ ██║╚██████╔╝   ██║   [/]
+  [dim #A89984]  ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝ ╚═════╝    ╚═╝   [/]
+
+banner_hero: |
+  [#CC241D]⠠⢂⡀⣀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#CC241D]⡄⠠⠀⠀⠄⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#CC241D]⣆⠂⠀⠌⢁⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#FB4934]⠀⣀⡄⠐⠂⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#FB4934]⠠⡀⠀⠞⠨⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#FB4934]⡇⡗⠒⡁⠉⠐⠖⠠⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#D79921]⢣⡤⢨⢠⠎⠀⡐⠀⠡⠤⠙⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#D79921]⡁⡶⢊⣌⣌⡣⠫⠤⠁⢀⠐⠐⠈⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#D79921]⡯⠰⡉⢏⢭⣎⢊⢇⡉⣐⡤⠑⠬⠝⡂⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#FABD2F]⢧⠥⠵⣆⣄⢕⠜⠄⢦⠈⠒⠀⢀⢄⢀⢰⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#FABD2F]⣳⡾⢟⢫⣖⣇⢆⠓⣨⠶⠄⢖⣤⠧⢀⠢⡀⢄⠀⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#FABD2F]⣿⠜⡯⣺⡾⡶⡡⠭⡜⢸⠧⠋⠓⠕⣵⢍⣀⡀⠄⠄⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#FBF1C7]⢿⣽⣿⡩⡏⢶⢵⢖⣔⣺⠆⢅⠀⢓⡼⡇⠀⠁⠁⡁⠄⢹⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#FBF1C7]⡽⣙⣷⡱⢙⣯⢴⣖⣉⣊⡃⠧⠒⢃⠲⢼⠀⠀⠭⢀⠁⢸⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#FBF1C7]⢍⡻⡦⠿⢄⢟⠽⣬⡄⡙⣹⣺⠂⠉⡔⠅⡔⠨⠉⡀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [dim #A89984]  chaos → squashed → order  [/]
