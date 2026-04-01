@@ -32,7 +32,7 @@ The color palette is anchored entirely to **Gruvbox Dark Hard** (`#1D2021` backg
 |---|---|
 | **Waiting** | Moy's expression degrades with boredom — confused → suspicious → asleep → inexplicably smug |
 | **Thinking** | A thought bubble compresses incoming chaos through the sigmoid and pops out a signal |
-| **Wings** | `[0|` and `|1]` — Moy sits permanently between 0 and 1, which is the entire job description |
+| **Wings** | [0| and |1] — Moy sits permanently between 0 and 1, which is the entire job description |
 
 ---
 
