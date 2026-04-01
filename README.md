@@ -1,4 +1,6 @@
-# Sigmoy
+# Skins
+
+## Sigmoy
 
 > *Squashing infinite chaos into a 0-1 analogy.*
 
@@ -12,7 +14,7 @@ The result: an agent that takes your 10TB of unstructured reality, passes it thr
 
 ---
 
-## Visual Design
+### Visual Design
 
 The `banner_hero` is a mathematically generated sigmoid S-curve rendered in braille Unicode characters. The left side is scattered noise (chaos). The curve is the inflection point. The right side is solid fill (order). The warm gradient descends through the Gruvbox spectrum — deep red at the top, bright white at the bottom.
 
@@ -24,7 +26,7 @@ The color palette is anchored entirely to **Gruvbox Dark Hard** (`#1D2021` backg
 
 ---
 
-## Spinner States
+### Spinner States
 
 | State | Behavior |
 |---|---|
@@ -34,7 +36,7 @@ The color palette is anchored entirely to **Gruvbox Dark Hard** (`#1D2021` backg
 
 ---
 
-## Branding
+### Branding
 
 | Key | Value | Reason |
 |---|---|---|
@@ -44,7 +46,7 @@ The color palette is anchored entirely to **Gruvbox Dark Hard** (`#1D2021` backg
 
 ---
 
-## Installation
+### Installation
 
 Place `sigmoy.yaml` in your hermes-agent skins directory and set the following in `~/.hermes/config.yaml`:
 
