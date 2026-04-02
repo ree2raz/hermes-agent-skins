@@ -4,6 +4,9 @@
 
 > *Squashing infinite chaos into a 0-1 analogy.*
 
+<img width="1919" height="985" alt="Screenshot 2026-04-02 080208" src="https://github.com/user-attachments/assets/f4e22195-1a33-4941-8757-a87685cd6c0c" />
+
+
 A skin for [hermes-agent](https://github.com/NousResearch/hermes-agent) built on the **Gruvbox Dark Hard** terminal palette.
 
 **Sigmoy** is a portmanteau of two ideas:
